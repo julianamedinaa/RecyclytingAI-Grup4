@@ -59,7 +59,7 @@ Este proyecto se distribuye bajo la licencia mit
 license APACHE 2.0
 
 **Bibliotecas requeridas:**
-- python 3.7 +
+- python 3.9 +
 - tkinter
 - PIL (Pillow)
 - imutils
@@ -90,7 +90,7 @@ Ademas de las utilizadas en **requirements.txt**
 
 #### 3. Clonar el repositorio - control + mayuscula + p, click en "Git: Clone", pega:
 
-https://github.com/julianamedinaa/Proyecto_Recyclytic_AI_Grupo4.git
+ https://github.com/julianamedinaa/RecyclytingAI-Grup4.git
 
 #### 4. En powershell intalar UV: pip install uv
 
@@ -98,9 +98,11 @@ https://github.com/julianamedinaa/Proyecto_Recyclytic_AI_Grupo4.git
 
 #### 6. para construir y ejecutar el contenedor del Docker usa los siguintes comandos
 
-docker build -t neumonia-detector.
-docker run -p 8501:8501 neumonia-detector
+cd RecyclytingAI-Grup4
 
+docker build -t recyclingai .
+     
+docker run -it --rm recyclingai
 
 
 
