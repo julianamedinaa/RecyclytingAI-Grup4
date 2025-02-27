@@ -59,7 +59,7 @@ Este proyecto se distribuye bajo la licencia mit
 license APACHE 2.0
 
 **Bibliotecas requeridas:**
-- python 3.9 +
+- python 3.10+
 - tkinter
 - PIL (Pillow)
 - imutils
