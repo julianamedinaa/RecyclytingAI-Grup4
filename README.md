@@ -82,7 +82,7 @@ Ademas de las utilizadas en **requirements.txt**
 - camara web HD 720p o maximo 4k
 
 #
-### **Instalación**
+## **Instalación del Proyecto RecyclytingAI-Grup4**
 
 #### 1. Crea una carpeta en escritorio con el nombre que tu desees
 
@@ -103,6 +103,7 @@ cd RecyclytingAI-Grup4
 docker build -t recyclingai .
      
 docker run -it --rm recyclingai
+
 
 
 
